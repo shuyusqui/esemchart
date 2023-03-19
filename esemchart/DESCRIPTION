@@ -1,0 +1,29 @@
+Package: esemchart
+Title: Generate Tables for ICM-CFA or ESEM-within-CFA model
+Version: 0.1.0
+Authors@R: c(
+            person("Shuyu","Li",email="lishuyuna@126.com",role=c("aut","cre")),
+            person("He","Xiao",role="aut"),
+            person("Yingying","Luo",role="aut"),
+            person("Jiahua","Lei",role="aut"))
+Maintainer: Shuyu Li<lishuyuna@126.com>
+Description: ESEM incorporates more flexible EFA models into estimation by allowing items to cross-load 
+    on non-target factors.By choosing target rotation method,ESEM can estimate in a confirmatory way.Thus,ESEM 
+    will get less biased factor correlations.This package based on the work of Mateus et al--'esemComp'package.
+    It can make ESEM in EFA way and also make a complexable ESEM within CFA model.In this package, we will 
+    make a tool to corporate with 'esemComp'package to generate tables for ESEM.You can just run your model 
+    into 'esemComp'package,then put the result into this package to generate tables for parameters or loadings.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    flextable,
+    gt,
+    lavaan,
+    magrittr,
+    rlang,
+    roxygen2,
+    stats,
+    tidyr
