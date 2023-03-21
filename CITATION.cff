@@ -1,0 +1,46 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: esemchart
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Shuyu
+    family-names: Li
+    email: lishuyuna@126.com
+    affiliation: author
+  - given-names: He
+    family-names: Xiao
+    affiliation: author
+  - given-names: Yingying
+    family-names: Luo
+    affiliation: author
+  - given-names: Jiahua
+    family-names: Lei
+    affiliation: author
+  - given-names: Lijiao
+    family-names: Fei
+    affiliation: author
+identifiers:
+  - type: url
+    value: 'https://github.com/shuyusqui/esemchart/'
+repository-code: 'https://github.com/shuyusqui/esemchart/'
+abstract: >-
+  A tool to generate tables for ICM-CFA and ESEM within CFA
+  model, inspired by apatable and esemComp package.
+keywords:
+  - esem
+  - chart
+license: GPL-3.0
+version: 0.1.0
+date-released: '2023-03-21'
+
+
+
+
+
+
+
